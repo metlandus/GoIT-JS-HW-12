@@ -10,9 +10,6 @@ const loadMoreBtn = document.getElementById('load-more');
 
 let page = 1;
 const perPage = 40;
-const apiKey = import.meta.env.VITE_PIXABAY_API_KEY;
-console.log('API Key:', apiKey);
-console.log(import.meta.env);
 let totalHits = 0;
 
 form.addEventListener('submit', async (event) => {

@@ -11,6 +11,7 @@ const loadMoreBtn = document.getElementById('load-more');
 let page = 1;
 const perPage = 40;
 let totalHits = 0;
+let apiKey = '19490895-43525fbfea01be26fe968a218';
 
 form.addEventListener('submit', async (event) => {
     event.preventDefault();
